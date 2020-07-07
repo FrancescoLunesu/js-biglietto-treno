@@ -14,7 +14,7 @@ if (eta < 18) {
     prezzoFinale = prodotto - sconto;
     document.getElementById('prezzo').innerHTML = "il prezzo da pagare è:" + " " + prezzoFinale;
 
-} else if (eta > 65) {
+} else if (eta >= 65) {
     sconto = (prodotto * 40) / 100;
     prezzoFinale = prodotto - sconto;
     document.getElementById('prezzo').innerHTML = "il prezzo da pagare è:" + " " + prezzoFinale;
